@@ -1,6 +1,6 @@
    Live Demo 
 
-[https://vercel.com/my-store22/mystore/FZxp1QhvKjorG8MJGeHcDNrkuUjB](https://vercel.com/my-store22/mystore/FZxp1QhvKjorG8MJGeHcDNrkuUjB)
+https://mystore-khaki-zeta.vercel.app/
    
      
    Screenshots
