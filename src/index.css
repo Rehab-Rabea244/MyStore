@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f8f5ed;
+  color: #1f352c;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar-brand {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.navbar {
+  background-color: #18352b !important;
+  border-bottom: 2px solid #c9a45c;
+}
+
+.nav-link {
+  color: #f8f5ed !important;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #d9b56d !important;
+}
+
+.btn-dark {
+  background-color: #18352b !important;
+  border-color: #18352b !important;
+  border-radius: 0;
+  padding: 11px 25px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.btn-dark:hover {
+  background-color: #c9a45c !important;
+  border-color: #c9a45c !important;
+  color: #18352b !important;
+  transform: translateY(-2px);
+}
+
+.btn-outline-light:hover {
+  background-color: #c9a45c;
+  color: #18352b;
+  border-color: #c9a45c;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid #d8cfbd;
+  padding: 12px;
+}
+
+.form-control:focus {
+  border-color: #c9a45c;
+  box-shadow: 0 0 0 0.2rem rgba(201, 164, 92, 0.2);
+}
+
+.card {
+  border-radius: 0;
+  border: 1px solid #e1d8c7;
+  background-color: #fffdf8;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  min-height: calc(100vh - 76px);
+}
+
+.cart-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 22px;
+  margin-left: 4px;
+  padding: 0 6px;
+  border-radius: 50%;
+  background-color: #c9a45c;
+  color: #18352b;
+  font-size: 12px;
+  font-weight: 700;
+}
